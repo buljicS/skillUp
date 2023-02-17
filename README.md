@@ -6,4 +6,3 @@ Novembar 2022 <br>
 HTML5 <br>
 SASS <br>
 Bootstrap 5 <br>
-JavaScript <br>
