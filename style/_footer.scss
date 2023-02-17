@@ -1,0 +1,32 @@
+footer {
+  background-color: $accColor0;
+  border-top: 1px solid $accColor3;
+  padding-top: 3em;
+
+  .bflex {
+    margin-bottom: 3em;
+    .aisc {
+      img {
+        padding: 0.3em;
+        font-size: 2em;
+      }
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding-left: 1em;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .fot {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 0.5em;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+  }
+}

@@ -1,0 +1,332 @@
+.navbar {
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+.navbar .logoImg {
+  width: 50%;
+}
+.navbar a {
+  color: #277BC0;
+}
+.navbar a:hover {
+  color: #FFB200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heroPage {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  min-height: 100vh;
+}
+.heroPage .items {
+  margin: auto;
+  padding: 35vh 0 0 0;
+}
+.heroPage .items h1 {
+  color: #FFCB42;
+  font-size: 6em;
+}
+.heroPage .items h4 {
+  color: #FFCB42;
+  font-size: 3em;
+}
+.heroPage .items h5 {
+  color: white;
+  font-size: 30px;
+}
+.heroPage .items a {
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid #277BC0;
+  border-radius: 5px;
+  padding: 0.5em;
+  background-color: #277BC0;
+  color: #FFCB42;
+}
+.heroPage .items a:hover {
+  background-color: #FFCB42;
+  color: #277BC0;
+  transition: 0.8s;
+}
+
+.rowPadding {
+  padding: 5%;
+}
+
+.carouselSec {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 2.5em;
+  background-color: rgba(255, 255, 255, 0);
+}
+.carouselSec .carouselText {
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #277BC0;
+}
+.carouselSec .carousel {
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.carouselSec .carousel .carousel-control-next,
+.carouselSec .carousel .carousel-control-prev {
+  filter: invert(100%);
+}
+
+.welcomeImg {
+  background-image: url("../img/AIESEC.png");
+  background-position: center;
+  height: 70vh;
+}
+
+.aIstorija .aInfo {
+  padding-top: 2em;
+  position: relative;
+}
+.aIstorija .aInfo p {
+  text-align: center;
+  padding: 1.3em;
+  font-size: 1.2em;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+.aIstorija .aInfo #pic1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scaleX(1);
+  transform: scaleY(1);
+  transform: rotate(180deg);
+  width: 20em;
+}
+.aIstorija h4 {
+  font-size: 45px;
+  color: #277BC0;
+  display: inline-block;
+}
+.aIstorija .center {
+  text-align: center;
+}
+
+.carouselUnique {
+  padding-top: 1em;
+  max-width: 800px;
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.decoration {
+  padding-top: 6em;
+  position: relative;
+}
+.decoration #pic2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: scaleX(1);
+  transform: scaleY(1);
+  width: 20em;
+}
+
+.text {
+  padding-top: 5em;
+}
+.text h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 0.2em;
+}
+
+.skillup {
+  position: relative;
+  text-align: center;
+  padding-top: 5%;
+}
+.skillup #picc1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scaleX(1);
+  transform: scaleY(1);
+  transform: rotate(180deg);
+  width: 17em;
+}
+.skillup h3 {
+  text-transform: uppercase;
+  color: #277BC0;
+  font-weight: 700;
+}
+.skillup p {
+  text-align: justify;
+}
+
+.predavanja {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+.predavanja .row {
+  padding-bottom: 3em;
+}
+.predavanja .textStyle {
+  text-align: justify;
+}
+.predavanja .textStyle h4 {
+  text-align: center;
+  color: #277BC0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.image {
+  position: relative;
+}
+.image #pic2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 17em;
+}
+
+.kontakt {
+  padding-top: 5vh;
+  position: relative;
+}
+.kontakt h2 {
+  color: #277BC0;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.kontakt .wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.kontakt img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 25em;
+}
+.kontakt #pic2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scaleX(1);
+  transform: scaleY(1);
+  transform: rotate(180deg);
+  width: 25em;
+}
+.kontakt #submit {
+  margin-top: 10px;
+  padding: 0.3em;
+  width: 100%;
+  background-color: #277BC0;
+  color: #FFB200;
+  border: 1px solid #277BC0;
+  border-radius: 5px;
+  margin-bottom: 3em;
+}
+.kontakt .info {
+  padding-top: 5vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3em;
+}
+
+.textG {
+  padding-top: 3em;
+  text-align: center;
+}
+.textG h1 {
+  text-transform: uppercase;
+  color: #277BC0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 24.5%;
+  padding: 0 1px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+footer {
+  background-color: #277BC0;
+  border-top: 1px solid #FFB200;
+  padding-top: 3em;
+}
+footer .bflex {
+  margin-bottom: 3em;
+}
+footer .bflex .aisc img {
+  padding: 0.3em;
+  font-size: 2em;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 0.5em;
+}
+footer a:hover {
+  color: white;
+}
+footer .fot {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+  padding-top: 70px;
+  font-size: 18px;
+}
+body .wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}/*# sourceMappingURL=indexStyle.css.map */

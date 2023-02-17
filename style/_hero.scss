@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.heroPage {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  min-height: 100vh;
+  .items {
+    margin: auto;
+    padding: 35vh 0 0 0;
+    h1 {
+      color: $accColor2;
+      font-size: 6em;
+    }
+
+    h4{
+      color: $accColor2;
+      font-size: 3em;
+    }
+
+    h5{
+      color: white;
+      font-size: 30px;
+    }
+
+
+
+    a {
+      text-decoration: none;
+      font-size: 17px;
+      border: 1px solid $accColor0;
+      border-radius: 5px;
+      padding: 0.5em;
+      background-color: $accColor0;
+      color: $accColor2;
+      &:hover {
+        background-color: $accColor2;
+        color: $accColor0;
+        transition: 0.8s;
+      }
+    }
+  }
+}
+
+.rowPadding {
+  padding: 5%;
+}
+
+.carouselSec {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 2.5em;
+  background-color: rgba(255, 255, 255, 0);
+  .carouselText {
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: $accColor0;
+
+  }
+
+  .carousel {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    .carousel-control-next,
+    .carousel-control-prev {
+      filter: invert(100%);
+    }
+  }
+}
+
+

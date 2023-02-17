@@ -1,0 +1,40 @@
+$accColor0: #277BC0;
+$accColor1: #FFF4CF;
+$accColor2: #FFCB42;
+$accColor3: #FFB200;
+
+@import "_navbar.scss";
+@import "_hero.scss";
+@import "_aiesec.scss";
+@import "_oProjektu.scss";
+@import "_kontakt.scss";
+@import "_gallery.scss";
+@import "_footer.scss";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    font-size: 18px;
+
+    .wrap{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

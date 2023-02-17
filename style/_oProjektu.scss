@@ -1,0 +1,73 @@
+
+.text{
+    padding-top: 5em;  
+    h4{
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-bottom: 0.2em;
+    }
+}
+
+.skillup{
+    position: relative;
+
+    #picc1{
+        position: absolute;
+        left:0;
+        top: 0;
+        -webkit-transform: scaleX(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleX(1);
+        transform: scaleY(1);
+        transform: rotate(180deg);
+        width: 17em;
+    }
+    text-align: center;
+    padding-top: 5%;
+    h3{
+        text-transform: uppercase;
+        color: $accColor0;
+        font-weight: 700;
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+.predavanja{
+   
+    padding-top: 7em;
+    padding-bottom: 7em;
+    .row{
+        padding-bottom: 3em;
+    }
+
+    .textStyle{
+        text-align: justify;
+        h4{
+            text-align: center;
+            color: $accColor0;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}
+
+
+.image{
+    position: relative;
+    #pic2{
+        position: absolute;
+        right: 0; 
+        bottom: 0;
+        width: 17em;
+
+    }
+}
+
+// @media only screen and (min-width: 1300px) {
+//     .container{
+//         display: flex;
+//         flex-direction: column;
+//     }
+//   }

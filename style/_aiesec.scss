@@ -1,0 +1,70 @@
+.welcomeImg {
+  background-image: url("../img/AIESEC.png");
+  background-position: center;
+  height: 70vh;
+}
+
+.aIstorija {
+  .aInfo {
+    padding-top: 2em;
+  
+    position: relative;
+    p {
+      text-align: center;
+      padding: 1.3em;
+      font-size: 1.2em;
+      max-width: 1130px;
+      margin: 0 auto;
+    }
+    #pic1{
+        position: absolute;
+        left:0;
+        top: 0;
+        -webkit-transform: scaleX(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleX(1);
+        transform: scaleY(1);
+        transform: rotate(180deg);
+        width: 20em;
+     }
+  }
+
+  h4 {
+    font-size: 45px;
+    color: $accColor0;
+    display: inline-block;
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+
+.carouselUnique {
+  padding-top: 1em;
+  max-width: 800px;
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.decoration{
+    padding-top: 6em;
+    position: relative;
+    #pic2{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        -webkit-transform: scaleX(1);
+        -webkit-transform: scaleY(1);
+        transform: scaleX(1);
+        transform: scaleY(1);
+    
+   
+        width: 20em;
+    }
+}
+
+
+
