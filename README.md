@@ -1,6 +1,6 @@
 # skillUp
 ### SkillUp projekat
-### Studentska organizacija AISEC
+### Studentska organizacija AIESEC
 ### Novembar 2022
 ---
 HTML5 <br>
